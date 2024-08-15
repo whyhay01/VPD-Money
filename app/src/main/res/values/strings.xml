@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VPD Money</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contentDescription">content description</string>
+    <string name="login_securely_to_your_account">Login securely to your account</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="account">Account</string>
+    <string name="transfer">Transfer</string>
+    <string name="you_are_about_to_transfer_from_this_account">You are about to transfer from this account</string>
+    <string name="enter_beneficiary_account_details_to_complete_transfer">Enter beneficiary account details to complete transfer</string>
+    <string name="account_number">Account number</string>
+    <string name="amount">Amount</string>
+    <string name="account_number_error">Enter account number</string>
+    <string name="amount_error">Enter amount</string>
+    <string name="home">Home</string>
+    <string name="my_transaction">My Transaction</string>
+    <string name="email_error_empty">Enter email</string>
+    <string name="password_error">Enter password</string>
+    <string name="email_error_not_match">Enter a valid email address</string>
+    <string name="transaction">Transaction</string>
+</resources>

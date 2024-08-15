@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170634500489",
+    "project_id": "vpdmoney-71b68",
+    "storage_bucket": "vpdmoney-71b68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170634500489:android:fc6d79cabbb4d49ab7a958",
+        "android_client_info": {
+          "package_name": "me.greenworld.vpdmoney"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC10zvT9ubnfTv2InHUs7OMGRBFNEwiqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
