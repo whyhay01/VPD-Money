@@ -25,6 +25,7 @@ The home page has two CTAs
 ![Confirm Transfer](https://github.com/whyhay01/VPD-Money/blob/main/confirmTransfer.png)
 
 ![Transaction Screen](https://github.com/whyhay01/VPD-Money/blob/main/transactionScreen.png)
+![Loading Transfer Screen](https://github.com/whyhay01/VPD-Money/blob/main/loadingTransfer.png)
 
 
 
