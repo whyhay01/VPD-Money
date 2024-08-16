@@ -1,4 +1,4 @@
-package me.greenworld.vpdmoney.cache.di
+package me.greenworld.vpdmoney.data.di
 
 import dagger.Module
 import dagger.Provides
@@ -6,9 +6,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
-import me.greenworld.vpdmoney.cache.di.DefaultDispatcher
-import me.greenworld.vpdmoney.cache.di.IoDispatcher
-import me.greenworld.vpdmoney.cache.di.MainDispatcher
 
 @InstallIn(SingletonComponent::class)
 @Module

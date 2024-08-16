@@ -1,4 +1,4 @@
-package me.greenworld.vpdmoney.cache.di
+package me.greenworld.vpdmoney.data.di
 
 import android.app.Activity
 import android.content.Context

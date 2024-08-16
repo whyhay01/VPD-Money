@@ -1,15 +1,14 @@
-package me.greenworld.vpdmoney.cache.db
+package me.greenworld.vpdmoney.data.db
 
-import android.accounts.Account
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import me.greenworld.vpdmoney.cache.account.AccountDao
-import me.greenworld.vpdmoney.cache.account.AccountEntity
-import me.greenworld.vpdmoney.cache.db.UserDatabase.Companion.DATABASE_VERSION
-import me.greenworld.vpdmoney.cache.transaction.TransactionDao
-import me.greenworld.vpdmoney.cache.transaction.TransactionEntity
+import me.greenworld.vpdmoney.data.account.AccountDao
+import me.greenworld.vpdmoney.data.account.AccountEntity
+import me.greenworld.vpdmoney.data.db.UserDatabase.Companion.DATABASE_VERSION
+import me.greenworld.vpdmoney.data.transaction.TransactionDao
+import me.greenworld.vpdmoney.data.transaction.TransactionEntity
 
 @Database(entities = [AccountEntity::class, TransactionEntity::class], version = DATABASE_VERSION)
 abstract class UserDatabase: RoomDatabase() {

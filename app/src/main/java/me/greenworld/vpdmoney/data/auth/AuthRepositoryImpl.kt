@@ -1,10 +1,10 @@
-package me.greenworld.vpdmoney.cache.auth
+package me.greenworld.vpdmoney.data.auth
 
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
-import me.greenworld.vpdmoney.cache.di.IoDispatcher
+import me.greenworld.vpdmoney.data.di.IoDispatcher
 import me.greenworld.vpdmoney.domain.auth.AuthRepository
 import me.greenworld.vpdmoney.domain.common.Resource
 import javax.inject.Inject

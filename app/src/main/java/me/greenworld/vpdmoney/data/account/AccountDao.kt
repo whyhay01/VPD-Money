@@ -1,10 +1,9 @@
-package me.greenworld.vpdmoney.cache.account
+package me.greenworld.vpdmoney.data.account
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -1,8 +1,9 @@
-package me.greenworld.vpdmoney
+package me.greenworld.vpdmoney.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
+import me.greenworld.vpdmoney.R
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

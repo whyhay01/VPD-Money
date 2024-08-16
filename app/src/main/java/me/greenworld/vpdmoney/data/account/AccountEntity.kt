@@ -1,4 +1,4 @@
-package me.greenworld.vpdmoney.cache.account
+package me.greenworld.vpdmoney.data.account
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

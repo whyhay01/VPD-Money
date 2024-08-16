@@ -1,4 +1,4 @@
-package me.greenworld.vpdmoney.cache.transaction
+package me.greenworld.vpdmoney.data.transaction
 
 import androidx.room.Dao
 import androidx.room.Insert
