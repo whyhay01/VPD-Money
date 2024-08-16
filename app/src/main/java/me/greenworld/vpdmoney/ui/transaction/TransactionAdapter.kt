@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import me.greenworld.vpdmoney.databinding.DisplayTransactionBinding
 import me.greenworld.vpdmoney.domain.model.Transaction
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 class TransactionAdapter(): ListAdapter<Transaction, TransactionAdapter.TransactionViewHolder>(TransactionDiffCallback) {
 
@@ -21,11 +24,15 @@ class TransactionAdapter(): ListAdapter<Transaction, TransactionAdapter.Transact
 
     class TransactionViewHolder(private val binding:DisplayTransactionBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(transaction: Transaction){
+
+            val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
+            val formattedDate = dateFormat.format(Date(transaction.date))
+            binding.date.text = "Date: $formattedDate"
+
             binding.transactionID.text = "Trans ID: ${transaction.transactionID}"
             binding.amountTransferred.text = "Amount transferred: ${transaction.amountTransferred}"
             binding.beneficiaryName.text = "Beneficiary name: ${transaction.beneficiaryName}"
             binding.destinationAccountNumber.text = "Dest account: ${transaction.destinationAccountNumber}"
-            binding.date.text = "Date: ${transaction.date}"
             binding.sourceAccountNumber.text = "Src account: ${transaction.sourceAccountNumber}"
         }
 
